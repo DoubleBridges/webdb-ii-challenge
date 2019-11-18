@@ -1,5 +1,9 @@
 import { dbConfig as db } from '../data/db-config'
 
+// I really want to abstract these out so that the controllers become generic
+// to where they can be used on multiple routes by passing in the db as a variable.
+// I started to on this assignment, but I got a brain lock and left it till later.
+
 export const getAll = async (req, res) => {
   try {
     const cars = await db('cars')
