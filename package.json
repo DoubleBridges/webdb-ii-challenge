@@ -4,7 +4,7 @@
   "description": "Node DB 2 Module Challenge",
   "main": "index.js",
   "scripts": {
-    "server": "babel-node index.js",
+    "start": "babel-node index.js",
     "dev": "nodemon index.js --exec babel-node"
   },
   "author": "Lambda School",
